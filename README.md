@@ -1,6 +1,8 @@
 # Etudiant_filliere_security
 
 A microservices-based application for managing students and departments (filières), secured with JWT authentication.
+Each service (Security, Filiere, Etudiant) is independently deployed and communicates via REST APIs and Feign clients.
+The system ensures proper role-based access control (RBAC), where only authorized users can perform administrative actions.
 
 ## Technologies
 
